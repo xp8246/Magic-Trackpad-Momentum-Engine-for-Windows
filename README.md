@@ -29,7 +29,7 @@ Don't want to download a compiled `.exe`? Compile it yourself using the built-in
 Open Command Prompt (cmd) and run:
 ```cmd
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /out:MagicTrackpadEngine.exe /reference:System.Windows.Forms.dll /reference:System.Drawing.dll Inertia.cs
-
+```
 Physics Tuning Guide
 The engine is highly customizable to match your exact finger feel. Hover over any setting in the app to see a detailed tooltip.
 
